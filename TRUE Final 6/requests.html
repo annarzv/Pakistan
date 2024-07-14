@@ -1,0 +1,83 @@
+<!DOCTYPE html>          
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Requests</title>
+
+</head>
+
+
+<style>
+
+
+
+
+</style>
+
+
+
+
+   <body>
+
+    <h2>Recipe Request Form</h2>
+
+<form action="/submit" method="post">
+
+  
+    <label for="name">Dish Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <br>
+
+
+  
+    <label>Have you made this before?</label>
+    <input type="radio" id="answer" name="answer" value="yes" required>
+    <label for="answer">Yes</label>
+    <input type="radio" id="answer2" name="answer2" value="no" required>
+    <label for="female">No</label>
+    <br>
+
+
+<h4><u>Type of Dish</u></h4>
+    <input type="checkbox" id="rice" name="rice" value="yes">
+    <label for="rice">Rice</label>
+
+    <input type="checkbox" id="curry" name="curry" value="yes">
+    <label for="curry">Curry</label>
+
+    <input type="checkbox" id="app" name="app" value="yes">
+    <label for="app">Appetizer</label>
+
+    <br>
+<br>
+<br>
+  
+    <label for="region">Region of Dish :</label>
+    <select id="region" name="region" required>
+        <option value="lahori">Lahori</option>
+        <option value="karachi">Karachi</option>
+        <option value="balochi">Balochi</option>
+        <option value="sindhi">Sindhi</option>
+    </select>
+    <br>
+    <br>
+
+
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+
+  
+
+
+
+
+   </body>
+</html>
